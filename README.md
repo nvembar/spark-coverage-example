@@ -17,3 +17,7 @@ The `findspark` module is used when run locally to instantiate the `SparkSession
 Because it runs locally, `coverage` will be aware of the execution path for the code and will be able to produce a report as normal.
 
 We separate `main.py` from the functions for testability and to allow for distinct creation/finding of the `SparkSession`.
+
+## Other notes
+
+Obviously, I didn't worry about errors or good parsing of arguments, etc., etc.
