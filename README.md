@@ -15,3 +15,5 @@ $ poetry run
 The `findspark` module is used when run locally to instantiate the `SparkSession` that is designed to run locally on the calling machine, as opposed to `spark-submit`.
 
 Because it runs locally, `coverage` will be aware of the execution path for the code and will be able to produce a report as normal.
+
+We separate `main.py` from the functions for testability and to allow for distinct creation/finding of the `SparkSession`.
