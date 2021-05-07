@@ -1,6 +1,6 @@
 # Demonstrating Coverage + Spark
 
-This is a short example of how to run Pyspark locally and get coverage data from it.
+This is a short example of how to run Pyspark locally and get coverage data from it, as a response to [this Stack Overflow](https://stackoverflow.com/questions/67167957/getting-coverage-xml-for-a-python-file-run-with-spark/) question.
 
 This uses poetry for installation. On macOS, a homebrew installation of the `apache-spark` package is needed. Follow the homebrew instructions to make sure that `openjdk@11` is in your path first.
 
